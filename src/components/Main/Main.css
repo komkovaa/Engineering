@@ -1,0 +1,129 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__text {
+    font-family: var(--font-body-family);
+    font-size: var(--font-body-2-size);
+    line-height: var(--font-body-2-height);
+    font-weight: 400;
+}
+
+.banner {
+    padding: 70px 0;
+    border-bottom: 1px solid var(--color-black);
+}
+
+.banner__title {
+    font-family: var(--font-headlines-family);
+    font-size: var(--font-headlines-5-size);
+    line-height: var(--font-headlines-5-height);
+    font-weight: 600;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 68px 0;
+    align-items: center;
+    border-bottom: 1px solid var(--color-black);
+}
+
+.about__title {
+    font-family: var(--font-headlines-family);
+    font-size: var(--font-headlines-4-size);
+    line-height: var(--font-headlines-4-height);
+    font-weight: 600;
+    width: 321px;
+    margin: 0;
+}
+
+.about__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+    font-family: var(--font-body-family);
+    font-size: var(--font-body-1-size);
+    line-height: var(--font-body-3-height);
+    font-weight: 400;
+}
+
+.about__item {
+    height: 50px;
+    position: relative;
+    display: flex;
+    width: 325px;
+    margin-bottom: 45.5px;
+    align-items: center;
+}
+
+/* вертикальная линия */
+.about__item:nth-child(even):before {
+    content: '';
+    position: absolute;
+    background: var(--color-black);
+    width: 1px;
+    height: 50px;
+    left: 0px;
+}
+
+.about__item:nth-child(even) {
+    padding-left: 45px;
+}
+
+.about__item:nth-child(5) {
+    margin-bottom: 0;
+}
+
+.about__item:nth-child(6) {
+    margin-bottom: 0;
+}
+
+.about__icon {
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+}
+
+.about__text {
+    margin: 0 0 0 10px;
+    width: 250px;
+}
+
+.automation {
+    padding: 80px 0;
+    display: flex;
+}
+
+.automation__list {
+    font-family: var(--font-headlines-family);
+    font-size: var(--font-headlines-4-size);
+    line-height: var(--font-headlines-4-height);
+    font-weight: 600;
+    padding-left: 64px;
+    margin: auto;
+}
+
+.automation__item {
+    font-family: var(--font-body-family);
+    font-size: var(--font-body-1-size);
+    line-height: var(--font-body-3-height);
+    font-weight: 400;
+    padding-top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.automation__image {
+    width: 45px;
+    height: 45px;
+}
+.automation__text {
+    margin: 0 0 0 10px;
+    width: 250px;
+}
+
+

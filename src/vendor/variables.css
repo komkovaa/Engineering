@@ -1,0 +1,34 @@
+:root {
+    --color-white: #FFF;
+    --color-grey: #444;
+    --color-black: #000;
+    --color-background: #FDFBF5;
+
+       
+    --font-body-family: PlusJakartaSans;
+    --font-headlines-family: Syne;
+
+    --font-body-1-size: 14px;
+    --font-body-2-size: 16px;
+    --font-body-3-size: 22px;
+   
+    --font-body-2-height: 22.4px;
+    --font-body-1-height: 17.64px;
+    --font-body-3-height: 19.6px;
+    --font-body-4-height: 30.8px;
+    
+
+    --font-headlines-1-size: 13px;
+    --font-headlines-2-size: 16px;
+    --font-headlines-3-size: 30px;
+    --font-headlines-4-size: 40px;
+    --font-headlines-5-size: 80px;
+    --font-headlines-6-size: 25px;
+  
+    --font-headlines-1-height: 18.2px;
+    --font-headlines-2-height: 19.2px;
+    --font-headlines-3-height: 42px;
+    --font-headlines-4-height: 48px;
+    --font-headlines-5-height: 96px;
+    --font-headlines-6-height: 30px;
+}

@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-black);
+    padding: 0 0 30px;
+}
+
+.header__list {
+    display: flex;
+    color: var(--color-grey);
+    font-family: var(--font-headlines-family);
+    font-size: var(--font-headlines-2-size);
+    line-height: var(--font-headlines-2-height);
+    font-weight: 400;
+    gap: 20px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.logo {
+    width: 140px; 
+    height: 30px;
+}
