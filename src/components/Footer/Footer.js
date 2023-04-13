@@ -1,19 +1,29 @@
 import React from "react";
 import './Footer.css';
-import logo from '../../images/Logo.svg';
+import logo from '../../images/Logo.png';
+import whatsapp from '../../images/whatsapp.png';
+import telegram from '../../images/telegram.png';
+import phone from '../../images/phone.png';
+import email from '../../images/email.png';
 
 function Footer() {
     return (
         <div className="footer">
-            <a className="link" href='/'><img className="logo" src={logo} alt='Логотип'></img></a>
-            <ul className="list footer__list">Contact Us
-                <li className="footer__item">г. Москва, ул. Малая Семеновская, дом 11/2, строение 2</li>
-                <li className="footer__item">пн-пт: 8.00 - 17.00</li>
-            </ul>
-            <div className="phone">
-                <a className='link' href='tel:+79999999999'>+7 999 999 99 99</a>
+            <a className="link" href='/'><img className="logo" src={logo} alt='Logo'></img></a>
+            <div className="contact">
+                <div className="contact__icons">
+                    <img className="contact__icon" src={email} alt='email'></img>
+                </div>
+                <a className='link footer__link' href='mailto:info@a-tn.com'>info@a-tn.com</a>
             </div>
-            <a href="https://www.flaticon.com/ru/free-icons/" title="автоматизация иконки">Иконки от Freepik, SBTS2018 - Flaticon</a>
+            <div className="contact">
+                <div className="contact__icons">
+                    <img className="contact__icon" src={telegram} alt='Telegram'></img>
+                    <img className="contact__icon" src={whatsapp} alt='WhatsApp'></img>
+                    <img className="contact__icon" src={phone} alt='Phone'></img>
+                </div>
+                <a className='link footer__link' href='tel:+971585921679'>+971 58 592 16 79</a>
+            </div>
         </div>
     )
 }

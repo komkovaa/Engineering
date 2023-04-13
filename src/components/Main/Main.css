@@ -11,9 +11,28 @@
     font-weight: 400;
 }
 
+.logo {
+    background-color: var(--color-background);
+}
+
+.title {
+    font-family: var(--font-headlines-family);
+    font-size: var(--font-headlines-4-size);
+    line-height: var(--font-headlines-4-height);
+    font-weight: 600;
+    /* width: 321px; */
+    margin: 0;
+}
+
+.info {
+    margin: auto;
+    padding: 0 45px 0 0;
+}
+
 .banner {
     padding: 70px 0;
     border-bottom: 1px solid var(--color-black);
+    position: relative;
 }
 
 .banner__title {
@@ -24,21 +43,26 @@
     margin: 0;
 }
 
-.about {
+.banner__image {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 200px;
+    height: 200px;
+}
+
+.about,
+.automation,
+.integration,
+.pneumatic,
+.pipelines,
+.systems {
     display: flex;
     justify-content: space-between;
     padding: 68px 0;
     align-items: center;
     border-bottom: 1px solid var(--color-black);
-}
-
-.about__title {
-    font-family: var(--font-headlines-family);
-    font-size: var(--font-headlines-4-size);
-    line-height: var(--font-headlines-4-height);
-    font-weight: 600;
-    width: 321px;
-    margin: 0;
 }
 
 .about__list {
@@ -93,9 +117,11 @@
     width: 250px;
 }
 
-.automation {
-    padding: 80px 0;
+.automation__info {
     display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    gap: 20px;
 }
 
 .automation__list {
@@ -103,7 +129,6 @@
     font-size: var(--font-headlines-4-size);
     line-height: var(--font-headlines-4-height);
     font-weight: 600;
-    padding-left: 64px;
     margin: auto;
 }
 
@@ -125,5 +150,38 @@
     margin: 0 0 0 10px;
     width: 250px;
 }
+
+.pneumatic_image,
+.system__image {
+    margin-right: 60px;
+}
+
+.pipelines__image {
+    width: 780px;
+}
+
+/* .system__block {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.system__info {
+    width: 670px;
+    position: relative;
+    padding-right: 30px;
+}
+
+/* вертикальная линия */
+/* .system__info:before {
+    content: '';
+    position: absolute;
+    background: var(--color-black);
+    width: 1px;
+    height: 198px;
+    right: 0px;
+} */ 
+
+
 
 

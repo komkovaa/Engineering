@@ -1,7 +1,6 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid var(--color-black);
     padding-top: 50px;
     align-items: center;
 }
@@ -17,5 +16,28 @@
     font-family: var(--font-headlines-family);
     font-size: var(--font-body-2-size);
     line-height: var(--font-body-2-height);
+    font-weight: 400;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact__icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contact__icon {
+width: 30px;
+}
+
+.footer__link {
+    font-family: var(--font-body-family);
+    font-size: var(--font-body-2-size);
+    line-height: var(--font-body-3-height);
     font-weight: 400;
 }

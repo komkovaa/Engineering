@@ -3,13 +3,14 @@
   min-width: 320px;
   height: 100%;
   background-color: var(--color-background);
+  padding: 30px 0;
 }
 
 .content {
   border: 1px solid var(--color-black);
   padding: 30px 65px 50px;
   max-width: 1170px;
-  margin: 30px auto;
+  margin: 0px auto;
 }
 
 .list {
@@ -26,4 +27,27 @@
 .link:hover {
   color: var(--color-black);
   cursor: pointer;
+}
+
+.text {
+  font-family: var(--font-body-family);
+  font-size: var(--font-body-1-size);
+  line-height: var(--font-body-3-height);
+  font-weight: 400;
+}
+
+.button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-headlines-family);
+  font-size: var(--font-headlines-2-size);
+  line-height: var(--font-headlines-2-height);
+  font-weight: 600;
+  display: block;
+  padding: 14px;
+  border-radius: 10px;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
 }
