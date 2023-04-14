@@ -55,6 +55,9 @@
 }
 
 @media screen and (max-width: 700px) {
+    .header {
+    flex-direction: column;
+}
     .header__link {
         font-family: var(--font-body-family);
         font-size: var(--font-body-2-size);
