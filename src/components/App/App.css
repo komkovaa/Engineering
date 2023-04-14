@@ -50,4 +50,11 @@
   height: 20px;
   text-align: center;
   text-decoration: none;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .text {
+      text-align: center;
+  }
 }

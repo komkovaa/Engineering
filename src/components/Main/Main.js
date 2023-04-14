@@ -52,23 +52,24 @@ function Main() {
                 </ul>
             </section>
             <section className='automation'>
-                <img src={automation_img} alt='Automation'></img>
+                <img className='automation__image' src={automation_img} alt='Automation'></img>
                 <div className='automation__info'>
-                    <ul className='list automation__list'>Automation of production processes and production robotization
+                    <h2 className='title'>Automation of production processes and production robotization</h2>
+                    <ul className='list automation__list'>
                         <li className='automation__item'>
-                            <img className='automation__image' src={one} alt='one'></img>
+                            <img className='automation__icon' src={one} alt='one'></img>
                             <p className='automation__text'>Installation and integration of robots</p>
                         </li>
                         <li className='automation__item'>
-                            <img className='automation__image' src={two} alt='two'></img>
+                            <img className='automation__icon' src={two} alt='two'></img>
                             <p className='automation__text'>Lifting devices and manipulators</p>
                         </li>
                         <li className='automation__item'>
-                            <img className='automation__image' src={three} alt='three'></img>
+                            <img className='automation__icon' src={three} alt='three'></img>
                             <p className='automation__text'>Control box</p>
                         </li>
                         <li className='automation__item'>
-                            <img className='automation__image' src={four} alt='four'></img>
+                            <img className='automation__icon' src={four} alt='four'></img>
                             <p className='automation__text'>HMI Operator Pane</p>
                         </li>
                     </ul>
@@ -80,10 +81,10 @@ function Main() {
                     <p className='text'>Machine vision tools allow companies around the world to improve assembly inspection, eliminate defects, and automate production in a wide range of industries.</p>
                     <p className='text'>We can offer 2D and 3D machine vision system which helps eliminate defects, verify assembly, and track information throughout the production process. A wide range of models, including line scan and color systems, meet most price and performance requirements.</p>
                 </div>
-                <img src={integration_img} alt='Integration'></img>
+                <img className='integration__image' src={integration_img} alt='Integration'></img>
             </section>
             <section className='pneumatic'>
-                <img className='pneumatic_image' src={pneumatic_img} alt='Pneumatic control components'></img>
+                <img className='pneumatic__image' src={pneumatic_img} alt='Pneumatic control components'></img>
                 <div className='info'>
                     <h2 className='title'>Pneumatic control components</h2>
                     <p className='text'>Design, assembly, supply of pneumatic equipment control boxes. The assembly is carried out on the basis of pneumatic components from SMC Pneumatic, FESTO, CAMOZZI.</p>
