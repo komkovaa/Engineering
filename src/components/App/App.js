@@ -13,8 +13,8 @@ function App() {
       <div className='content'>
         <Header />
         <Routes>
-          <Route path='/' element={<Main />}></Route>
-          <Route path='/automation' element={<Automation />}></Route>
+          <Route path='/Engineering' element={<Main />}></Route>
+          <Route path='/Engineering/automation' element={<Automation />}></Route>
         </Routes>
         <Footer />
       </div>
