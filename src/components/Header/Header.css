@@ -18,6 +18,11 @@
     font-weight: 400;
 }
 
+.header__contact-block {
+    display: flex;
+    gap: 60px;
+}
+
 .header__contact {
     display: flex;
     padding-right: 20px;
@@ -36,7 +41,7 @@
     width: 30px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .logo {
         width: 180px;
         height: 35px;
@@ -54,10 +59,19 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .header__contact-block {
+        flex-direction: column;
+        gap: 10px;
+        align-items: end;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .header {
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
+
     .header__link {
         font-family: var(--font-body-family);
         font-size: var(--font-body-2-size);

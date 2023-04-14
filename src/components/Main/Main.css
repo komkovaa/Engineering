@@ -20,7 +20,6 @@
     font-size: var(--font-headlines-4-size);
     line-height: var(--font-headlines-4-height);
     font-weight: 600;
-    /* width: 321px; */
     margin: 0;
 }
 
@@ -41,12 +40,22 @@
     line-height: var(--font-headlines-5-height);
     font-weight: 600;
     margin: 0;
+    text-align: center;
+}
+
+.banner__description {
+    font-family: var(--font-headlines-family);
+    font-size: var(--font-headlines-4-size);
+    line-height: var(--font-headlines-4-height);
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
 }
 
 .banner__image {
-    width: 200px;
-    float: right;
-    margin-left: 20px;
+    display: block;
+    width: 500px;
+    margin: 20px auto 0;
 }
 
 .about,

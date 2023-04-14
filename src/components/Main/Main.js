@@ -22,9 +22,10 @@ function Main() {
     return (
         <div className='main'>
             <section className='banner'>
-                <img className='banner__image' src={banner} alt='Supply system'></img>
-                <h1 className='banner__title'>AAA ATN GROUP is an engineering company that represents a wide range of high—quality
+                <h1 className='banner__title'>AAA ATN GROUP</h1>
+                <h1 className='banner__description'>Engineering company that represents a wide range of high—quality
                     products and services on the market.</h1>
+                <img className='banner__image' src={banner} alt='Supply system'></img>
             </section>
 
             <section className='about'>
