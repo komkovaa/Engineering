@@ -32,7 +32,7 @@
 }
 
 .contact__icon {
-width: 30px;
+    width: 30px;
 }
 
 .footer__link {
@@ -40,4 +40,24 @@ width: 30px;
     font-size: var(--font-body-2-size);
     line-height: var(--font-body-3-height);
     font-weight: 400;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .contact__icon {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 20px;
+    }
+
+    .contact {
+        flex-direction: row;
+        gap: 30px;
+    }
 }

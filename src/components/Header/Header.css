@@ -35,3 +35,34 @@
 .header__icon {
     width: 30px;
 }
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        width: 180px;
+        height: 35px;
+    }
+
+    .header__link {
+        font-family: var(--font-body-family);
+        font-size: var(--font-body-2-size);
+        line-height: var(--font-body-2-height);
+        font-weight: 400;
+    }
+
+    .header__icon {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header__link {
+        font-family: var(--font-body-family);
+        font-size: var(--font-body-2-size);
+        line-height: var(--font-body-2-height);
+        font-weight: 400;
+    }
+
+    .header__icon {
+        display: none;
+    }
+}

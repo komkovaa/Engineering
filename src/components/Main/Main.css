@@ -170,6 +170,27 @@
         align-items: start;
     }
 
+    .automation__image,
+    .integration__image,
+    .pipelines__image {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        flex-direction: column;
+    }
+    .about__list {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* вертикальная линия */
+    .about__item:nth-child(even):before {
+        left: -45px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -205,6 +226,7 @@
     .system__image {
         order: 2;
         margin-top: 30px;
+        margin-right: 0px;
     }
 
     .about__list {
@@ -217,69 +239,66 @@
     }
 
     .automation__info {
+        padding: 0;
         align-items: center;
+    }
+    
+    .info {
+        padding: 0;
     }
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .banner {
-        padding: 70px 0;
-        border-bottom: 1px solid var(--color-black);
         display: flex;
         flex-direction: column;
     }
-    
+
     .banner__title {
-
+        font-size: var(--font-headlines-3-size);
+        line-height: var(--font-headlines-3-height);
+        text-align: center;
     }
-    
+
     .banner__image {
-        margin: auto;
         order: 2;
-    }
-
-
-
-    .about,
-    .automation,
-    .integration,
-    .pneumatic,
-    .pipelines,
-    .systems {
-        flex-direction: column;
+        margin: 20px auto 0;
     }
 
     .title {
-        text-align: center;
-        margin: 0 0 40px;
-    }
-
-    .automation__image,
-    .integration__image,
-    .pipelines__image {
-        width: 100%;
-        order: 2;
-        margin-top: 30px;
-    }
-
-    .pneumatic__image,
-    .system__image {
-        order: 2;
-        margin-top: 30px;
+        font-size: var(--font-headlines-3-size);
+        line-height: var(--font-headlines-3-height);
+        margin: 0 0 30px;
     }
 
     .about__list {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+
+    .about__item {
         width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__item:nth-child(even) {
+        padding-left: 0px;
+    }
+
+    .about__item:nth-child(5) {
+        margin-bottom: 20px;
     }
 
     /* вертикальная линия */
     .about__item:nth-child(even):before {
-        left: -20px;
+        display: none;
     }
 
-    .automation__info {
-        align-items: center;
+    .system__image {
+        width: 100%;
     }
 
 }
