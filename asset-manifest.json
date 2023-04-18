@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/engineering/static/css/main.b40e3d41.css",
-    "main.js": "/engineering/static/js/main.eb874c37.js",
+    "main.css": "/engineering/static/css/main.11ed3aa1.css",
+    "main.js": "/engineering/static/js/main.f60db707.js",
     "static/media/pipeline.jpg": "/engineering/static/media/pipeline.4f02c3cb787c41b36c69.jpg",
     "static/media/2.jpg": "/engineering/static/media/2.9eefaf00cb77936cb4be.jpg",
     "static/media/banner.jpg": "/engineering/static/media/banner.a5c3000dc728cef3483d.jpg",
+    "static/media/Roboto-Bold.woff": "/engineering/static/media/Roboto-Bold.0edbf382f50ec6a2ace2.woff",
+    "static/media/Roboto-Regular.woff": "/engineering/static/media/Roboto-Regular.8b6e99cfd60c1a1a7587.woff",
+    "static/media/Roboto-Light.woff": "/engineering/static/media/Roboto-Light.776efc2ed1f1b935cc81.woff",
     "static/media/automation_img.jpg": "/engineering/static/media/automation_img.85a0a8c1ad7e23dca823.jpg",
-    "static/media/PlusJakartaSans-Regular.woff": "/engineering/static/media/PlusJakartaSans-Regular.a34239645e00fb387dff.woff",
+    "static/media/Roboto-Bold.woff2": "/engineering/static/media/Roboto-Bold.d96d56bb4336836d5c51.woff2",
+    "static/media/Roboto-Regular.woff2": "/engineering/static/media/Roboto-Regular.d7a8ead043d26c9d30fc.woff2",
+    "static/media/Roboto-Light.woff2": "/engineering/static/media/Roboto-Light.3ede5963e0027509a24b.woff2",
     "static/media/pneumatic.jpg": "/engineering/static/media/pneumatic.07311314d5e5f7f70ed6.jpg",
-    "static/media/Syne-Regular.woff": "/engineering/static/media/Syne-Regular.a0c206fc7b4c500f5632.woff",
-    "static/media/PlusJakartaSans-Regular.woff2": "/engineering/static/media/PlusJakartaSans-Regular.d8464edd723dbedb1586.woff2",
     "static/media/Liquid-pumping.jpg": "/engineering/static/media/Liquid-pumping.85216645b2a445cefd69.jpg",
-    "static/media/Syne-Regular.woff2": "/engineering/static/media/Syne-Regular.3a62429eb448ef35ae8e.woff2",
     "static/media/Logo.png": "/engineering/static/media/Logo.2c5b7c936a45d548c22e.png",
     "static/media/integration.png": "/engineering/static/media/integration.c5f8344b4171853be5d7.png",
     "static/media/whatsapp.png": "/engineering/static/media/whatsapp.620af98ad34fd5b7c896.png",
@@ -24,11 +26,11 @@
     "static/media/4.svg": "/engineering/static/media/4.08480d1508021007f1c4d517f027a1b1.svg",
     "static/media/1.svg": "/engineering/static/media/1.df90c74ec4466de81a191f5993bb66f5.svg",
     "index.html": "/engineering/index.html",
-    "main.b40e3d41.css.map": "/engineering/static/css/main.b40e3d41.css.map",
-    "main.eb874c37.js.map": "/engineering/static/js/main.eb874c37.js.map"
+    "main.11ed3aa1.css.map": "/engineering/static/css/main.11ed3aa1.css.map",
+    "main.f60db707.js.map": "/engineering/static/js/main.f60db707.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40e3d41.css",
-    "static/js/main.eb874c37.js"
+    "static/css/main.11ed3aa1.css",
+    "static/js/main.f60db707.js"
   ]
 }
