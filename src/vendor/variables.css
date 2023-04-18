@@ -5,30 +5,18 @@
     --color-background: #FDFBF5;
 
        
-    --font-body-family: PlusJakartaSans;
-    --font-headlines-family: Syne;
+    --font-body-family: Roboto-Light;
+    --font-headlines-family: Roboto-Bold;
 
-    --font-body-1-size: 14px;
-    --font-body-2-size: 16px;
-    --font-body-3-size: 22px;
+    --font-1-size: 14px;
+    --font-2-size: 16px;
+    --font-3-size: 20px;
+    --font-4-size: 40px;
+    --font-5-size: 80px;
    
-    --font-body-2-height: 22.4px;
-    --font-body-1-height: 17.64px;
-    --font-body-3-height: 19.6px;
-    --font-body-4-height: 30.8px;
-    
-
-    --font-headlines-1-size: 13px;
-    --font-headlines-2-size: 16px;
-    --font-headlines-3-size: 30px;
-    --font-headlines-4-size: 40px;
-    --font-headlines-5-size: 80px;
-    --font-headlines-6-size: 25px;
-  
-    --font-headlines-1-height: 18.2px;
-    --font-headlines-2-height: 19.2px;
-    --font-headlines-3-height: 42px;
-    --font-headlines-4-height: 48px;
-    --font-headlines-5-height: 96px;
-    --font-headlines-6-height: 30px;
+    --font-1-height: 19.6px;
+    --font-2-height: 22.4px;
+    --font-3-height: 30.8px;
+    --font-4-height: 48px;
+    --font-5-height: 96px;
 }

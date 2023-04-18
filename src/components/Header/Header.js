@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 import './Header.css';
 import logo from '../../images/Logo.png';
 import whatsapp from '../../images/whatsapp.png';
@@ -7,6 +8,11 @@ import phone from '../../images/phone.png';
 import email from '../../images/email.png';
 
 function Header() {
+    const location = useLocation();
+
+    const isEnPage = location.pathname === '/';
+    const isArPage = location.pathname === '/ar';
+    
     return (
         <header className='header'>
             <a className="link" href='/'>
@@ -27,7 +33,18 @@ function Header() {
                     </div>
                     <a className='link header__link' href='tel:+971585921679'>+971 58 592 16 79</a>
                 </div>
+
             </div>
+            {isEnPage && 
+            <div className="select">
+                <Link className="select__lang select__lang select__lang_active" to='/'>En</Link>
+                <Link className="select__lang select__lang" to='/ar'>Ar</Link>
+            </div> }
+            {isArPage && 
+            <div className="select">
+                <Link className="select__lang select__lang" to='/'>En</Link>
+                <Link className="select__lang select__lang select__lang_active" to='/ar'>Ar</Link>
+            </div>}
         </header>
     )
 }

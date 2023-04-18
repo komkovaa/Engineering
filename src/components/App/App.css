@@ -11,6 +11,10 @@
   padding: 30px 65px 50px;
   max-width: 1170px;
   margin: 0px auto;
+  font-family: var(--font-body-family);
+  font-size: var(--font-1-size);
+  line-height: var(--font-1-height);
+  color: var(--color-black);
 }
 
 .list {
@@ -29,20 +33,9 @@
   cursor: pointer;
 }
 
-.text {
-  font-family: var(--font-body-family);
-  font-size: var(--font-body-1-size);
-  line-height: var(--font-body-3-height);
-  font-weight: 400;
-}
-
 .button {
   background-color: var(--color-black);
   color: var(--color-white);
-  font-family: var(--font-headlines-family);
-  font-size: var(--font-headlines-2-size);
-  line-height: var(--font-headlines-2-height);
-  font-weight: 600;
   display: block;
   padding: 14px;
   border-radius: 10px;

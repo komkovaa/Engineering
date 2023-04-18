@@ -4,22 +4,14 @@
     flex-direction: column;
 }
 
-.main__text {
-    font-family: var(--font-body-family);
-    font-size: var(--font-body-2-size);
-    line-height: var(--font-body-2-height);
-    font-weight: 400;
-}
-
 .logo {
     background-color: var(--color-background);
 }
 
 .title {
     font-family: var(--font-headlines-family);
-    font-size: var(--font-headlines-4-size);
-    line-height: var(--font-headlines-4-height);
-    font-weight: 600;
+    font-size: var(--font-4-size);
+    line-height: var(--font-4-height);
     margin: 0;
 }
 
@@ -36,18 +28,16 @@
 
 .banner__title {
     font-family: var(--font-headlines-family);
-    font-size: var(--font-headlines-5-size);
-    line-height: var(--font-headlines-5-height);
-    font-weight: 600;
+    font-size: var(--font-5-size);
+    line-height: var(--font-5-height);
     margin: 0;
     text-align: center;
 }
 
 .banner__description {
     font-family: var(--font-headlines-family);
-    font-size: var(--font-headlines-4-size);
-    line-height: var(--font-headlines-4-height);
-    font-weight: 600;
+    font-size: var(--font-4-size);
+    line-height: var(--font-4-height);
     margin: 0;
     text-align: center;
 }
@@ -75,10 +65,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 700px;
-    font-family: var(--font-body-family);
-    font-size: var(--font-body-1-size);
-    line-height: var(--font-body-3-height);
-    font-weight: 400;
     margin-left: 20px;
 }
 
@@ -130,19 +116,7 @@
     padding-left: 64px;
 }
 
-.automation__list {
-    font-family: var(--font-headlines-family);
-    font-size: var(--font-headlines-4-size);
-    line-height: var(--font-headlines-4-height);
-    font-weight: 600;
-
-}
-
 .automation__item {
-    font-family: var(--font-body-family);
-    font-size: var(--font-body-1-size);
-    line-height: var(--font-body-3-height);
-    font-weight: 400;
     padding-top: 13px;
     display: flex;
     align-items: center;
@@ -169,8 +143,8 @@
 
 @media screen and (max-width: 1248px) {
     .banner__title {
-        font-size: var(--font-headlines-4-size);
-        line-height: var(--font-headlines-4-height);
+        font-size: var(--font-4-size);
+        line-height: var(--font-4-height);
         text-align: center;
     }
 
@@ -203,12 +177,6 @@
 }
 
 @media screen and (max-width: 900px) {
-    .banner__title {
-        font-size: var(--font-headlines-4-size);
-        line-height: var(--font-headlines-4-height);
-        text-align: start;
-    }
-
     .about,
     .automation,
     .integration,
@@ -265,8 +233,8 @@
     }
 
     .banner__title {
-        font-size: var(--font-headlines-3-size);
-        line-height: var(--font-headlines-3-height);
+        font-size: var(--font-3-size);
+        line-height: var(--font-3-height);
         text-align: center;
     }
 
@@ -276,8 +244,8 @@
     }
 
     .title {
-        font-size: var(--font-headlines-3-size);
-        line-height: var(--font-headlines-3-height);
+        font-size: var(--font-3-size);
+        line-height: var(--font-3-height);
         margin: 0 0 30px;
     }
 
