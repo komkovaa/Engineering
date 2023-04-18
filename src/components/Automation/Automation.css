@@ -4,10 +4,6 @@
 }
 
 .automation-more {
-    font-family: var(--font-headlines-family);
-    font-size: var(--font-headlines-6-size);
-    line-height: var(--font-headlines-6-height);
-    font-weight: 500;
     padding: 0 0 30px;
     margin: 0;
 }
