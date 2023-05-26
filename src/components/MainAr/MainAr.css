@@ -191,11 +191,6 @@
         margin: 0 0 40px;
     }
 
-    .banner__image {
-        width: 200px;
-        object-fit: cover;
-    }
-
     .automation__image,
     .integration__image,
     .pipelines__image {
